@@ -1,233 +1,231 @@
 <!DOCTYPE html>
-
 <html>
 
-<head>
-    <style>
-        body{
-            background: linear-gradient(45deg, white, rgb(189, 189, 255),rgb(201, 162, 206) ,  rgb(137, 43, 150))
-        }
-        h1 {
-            font-size: 60px;
-        }
+    <head>
+        <title>Google Pixel 2</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background: linear-gradient(45deg, white, rgb(189, 189, 255),rgb(201, 162, 206) ,  rgb(137, 43, 150))
+            }
+            h1 {
+                        font-size: 60px;
+            }
 
-        #logo{
-            border-radius: 50%;
-        }
+            #logo{
+                border-radius: 50%;
+            }
 
-        #phone-spec-table {
-            font-family: sans-serif, Arial;
-            border-collapse: collapse;
-            width: 60%;
-            text-align: center;
-            margin-left: 20%;
-            margin-right: auto;
-            background-color: white;
-        }
+            #phone-spec-table {
+                font-family: sans-serif, Arial;
+                width: 60%;
+                text-align: center;
+                margin-left: 20%;
+                margin-right: auto;
+                background-color: white;
+            }
 
-        #phone-spec-table td,
-        #phone-spec-table th {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: centre;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
+            #phone-spec-table td,
+            #phone-spec-table th {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: centre;
+                margin-left: auto;
+                margin-right: auto;
+            }
 
 
-        #phone-spec-table tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
+            #phone-spec-table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
 
-        #phone-spec-table tr:hover {
-            background-color: #ddd;
-        }
+            #phone-spec-table tr:hover {
+                background-color: #ddd;
+            }
 
-        .pixel-2-pic:hover:after {
-            content: url(https://ss7.vzw.com/is/image/VerizonWireless/GOOGLE_Taiman_Wht?$device-lg$);
-            display: block;
-            position: sticky;
-            background-size: auto;
-        }
+            .pixel-2-pic:hover:after {
+                content: url(https://ss7.vzw.com/is/image/VerizonWireless/GOOGLE_Taiman_Wht?$device-lg$);
+                display: block;
+                position: sticky;
+                background-size: auto;
+            }
 
-        .pixel-2-xl-pic:hover:after {
-            content: url(https://ss7.vzw.com/is/image/VerizonWireless/GOOGLE_Taiman_Wht?$device-lg$);
-            display: block;
-            position: sticky;
-            background-size: auto;
-        }
+            .pixel-2-xl-pic:hover:after {
+                content: url(https://ss7.vzw.com/is/image/VerizonWireless/GOOGLE_Taiman_Wht?$device-lg$);
+                display: block;
+                position: sticky;
+                background-size: auto;
+            }
 
-        #phone-spec-table th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: rgb(45, 85, 158);
-            color: white;
-        }
+            #phone-spec-table th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: rgb(45, 85, 158);
+                color: white;
+            }
 
-        .introduction{
-            font-size: 16px;
-            font-family: sans-serif, Arial, Helvetica;
-        }
+            .introduction{
+                font-size: 16px;
+                font-family: sans-serif, Arial, Helvetica;
+            }
 
-        #phone-side-by-side{
-            display: block;
-            border-radius: 3%;
-            position: relative;
-            top: 50%;
-            left: 30%;
-            height: 30%;
-            width: 40%;;
-            margin-top: 20px;
-        }
+            #phone-side-by-side{
+                display: block;
+                border-radius: 3%;
+                position: relative;
+                top: 50%;
+                left: 30%;
+                height: 30%;
+                width: 40%;;
+                margin-top: 20px;
+            }
 
-        .link:hover{
-            color: blue;
-        }
-    </style>
-    <title>Google Pixel 2</title>
-</head>
+            .link:hover{
+                color: blue;
+            }
+        </style>
+    </head>
 
-<body>
-    <h1>Google Pixel 2   <img id="logo" src="data:image/png;base64,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"
-            alt="Google logo" style="width:55px;height:55px;"></h1>
-    <hr />
-    <h2>An informative page about the Google Pixel 2</h2>
+    <body>
+        <h1>Google Pixel 2   <img id="logo" src="data:image/png;base64,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"
+                alt="Google logo" style="width:55px;height:55px;"></h1>
+        <hr />
+        <h2>An informative page about the Google Pixel 2</h2>
 
-    <div>
-        <p class="introduction">
-            The Pixel 2 are Android smartphones developed by Google. Manufactured by HTC, there were first announced in a Google event on 4th October 2017 and subsequently released on 19th October 2017. 
-        </p>
-        <p class="introduction">
-            The phone was release in two versions: Pixel 2, Pixel 2 XL. Please use table below to compare specs. The design consists of an aluminium back with a "premium coating" of plastic. It has a top section made from glass to improve wireless transmissivity. Have a look at the video of the phone and table to find out more! 
-        </p>
-        <iframe width="901" height="507" src="https://www.youtube.com/embed/zpLVsR8cSFo?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><img id="phone-side-by-side" src="https://cnet4.cbsistatic.com/img/ednvGUtr8wgkkIfV3k5Zv_usTbo=/1600x900/2017/10/04/0e742f03-3f61-4799-acaa-6b7e078cd16e/100417-google-pixel-2-xl-side-by-side-7192.jpg" >
-        <br><br>
-    </div>
+        <div>
+            <p class="introduction">
+                The Pixel 2 are Android smartphones developed by Google. Manufactured by HTC, there were first announced in a Google event on 4th October 2017 and subsequently released on 19th October 2017. 
+            </p>
+            <p class="introduction">
+                The phone was release in two versions: Pixel 2, Pixel 2 XL. Please use table below to compare specs. The design consists of an aluminium back with a "premium coating" of plastic. It has a top section made from glass to improve wireless transmissivity. Have a look at the video of the phone and table to find out more! 
+            </p>
+            <iframe width="901" height="507" src="https://www.youtube.com/embed/zpLVsR8cSFo?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><img id="phone-side-by-side" src="https://cnet4.cbsistatic.com/img/ednvGUtr8wgkkIfV3k5Zv_usTbo=/1600x900/2017/10/04/0e742f03-3f61-4799-acaa-6b7e078cd16e/100417-google-pixel-2-xl-side-by-side-7192.jpg" >
+            <br><br>
+        </div>
 
-    
+        
 
-    <table id="phone-spec-table">
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th class="pixel-2-pic">Google Pixel 2</th>
-                <th class="pixel-2-xl-pic">Google Pixel 2 XL</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Operating System</td>
-                <td>Android 8.0 with Google UI</td>
-                <td>Android 8.0 with Google UI</td>
-            </tr>
-            <tr>
-                <td>Processor</td>
-                <td>Qualcomm Snapdragon 835</td>
-                <td>Qualcomm Snapdragon 835</td>
-            </tr>
-            <tr>
-                <td>RAM</td>
-                <td>4GB</td>
-                <td>4GB</td>
-            </tr>
-            <tr>
-                <td>Display</td>
-                <td>5-inch 1920x1080<br>AMOLED<br>Gorilla Glass 5 <br> 2.5D glass, 441ppi <br> 95% DCI-P3 color space</td>
-                <td>6-inch 2880x1440<br>pOLED<br>Gorilla Glass 5 <br> 3D glass, 538ppi <br> 100% DCI-P3 color space</td>
-            </tr>
-            <tr>
-                <td>Rear Camera</td>
-                <td>12.2MP f/1.8<br>1.4μm pixels<br>OIS, EIS<br> PDAF, LDAF</td>
-                <td>12.2MP f/1.8<br>1.4μm pixels<br>OIS, EIS<br> PDAF, LDAF</td>
-            </tr>
-            <tr>
-                <td>Front camera</td>
-                <td>8MP, 1.4μm pixels <br> f/2.4, fixed focus</td>
-                <td>8MP, 1.4μm pixels <br> f/2.4, fixed focus</td>
-            </tr>
-            <tr>
-                <td>Video capture</td>
-                <td>4K @30fps, 1080p @120fps, 720p @240fps</td>
-                <td>4K @30fps, 1080p @120fps, 720p @240fps</td>
-            </tr>
-            <tr>
-                <td>Battery</td>
-                <td>2700 mAh<br>Non-removable</td>
-                <td>3520 mAh<br>Non-removable</td>
-            </tr>
-            <tr>
-                <td>Charging</td>
-                <td>USB-PD, 18W rapid Charging</td>
-                <td>USB-PD, 18W rapid Charging</td>
-            </tr>
-            <tr>
-                <td>Connectivity</td>
-                <td>USB Type-C, Bluetooth 5.0</td>
-                <td>USB Type-C, Bluetooth 5.0</td>
-            </tr>
-            <tr>
-                <td>Fingerprint sensor</td>
-                <td>Yes, on rear</td>
-                <td>Yes, on rear</td>
-            </tr>
-            <tr>
-                <td>Additional features</td>
-                <td>Active Edge sides, eSIM</td>
-                <td>Active Edge sides, eSIM</td>
-            </tr>
-            <tr>
-                <td>Storage</td>
-                <td>64 / 128GB</td>
-                <td>64 / 128GB</td>
-            </tr>
-            <tr>
-                <td>Water resistance</td>
-                <td>Yes, IP67</td>
-                <td>Yes, IP67</td>
-            </tr>
-            <tr>
-                <td>Colors</td>
-                <td>Kinda Blue, Just Black, Clearly White</td>
-                <td>Black &amp; White, Just Black</td>
-            </tr>
-            <tr>
-                <td>Security updates</td>
-                <td>3 years</td>
-                <td>3 years</td>
-            </tr>
-            <tr>
-                <td>Platform updates</td>
-                <td>3 years</td>
-                <td>3 years</td>
-            </tr>
-            <tr>
-                <td>Dimensions</td>
-                <td>145.7 x 69.7 x 7.8 mm</td>
-                <td>157.9 x 76.7 x 7.9 mm</td>
-            </tr>
-            <tr>
-                <td>Weight</td>
-                <td>143 g</td>
-                <td>175 g</td>
-            </tr>
-        </tbody>
+        <table id="phone-spec-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th class="pixel-2-pic">Google Pixel 2</th>
+                    <th class="pixel-2-xl-pic">Google Pixel 2 XL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Operating System</td>
+                    <td>Android 8.0 with Google UI</td>
+                    <td>Android 8.0 with Google UI</td>
+                </tr>
+                <tr>
+                    <td>Processor</td>
+                    <td>Qualcomm Snapdragon 835</td>
+                    <td>Qualcomm Snapdragon 835</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>4GB</td>
+                    <td>4GB</td>
+                </tr>
+                <tr>
+                    <td>Display</td>
+                    <td>5-inch 1920x1080<br>AMOLED<br>Gorilla Glass 5 <br> 2.5D glass, 441ppi <br> 95% DCI-P3 color space</td>
+                    <td>6-inch 2880x1440<br>pOLED<br>Gorilla Glass 5 <br> 3D glass, 538ppi <br> 100% DCI-P3 color space</td>
+                </tr>
+                <tr>
+                    <td>Rear Camera</td>
+                    <td>12.2MP f/1.8<br>1.4μm pixels<br>OIS, EIS<br> PDAF, LDAF</td>
+                    <td>12.2MP f/1.8<br>1.4μm pixels<br>OIS, EIS<br> PDAF, LDAF</td>
+                </tr>
+                <tr>
+                    <td>Front camera</td>
+                    <td>8MP, 1.4μm pixels <br> f/2.4, fixed focus</td>
+                    <td>8MP, 1.4μm pixels <br> f/2.4, fixed focus</td>
+                </tr>
+                <tr>
+                    <td>Video capture</td>
+                    <td>4K @30fps, 1080p @120fps, 720p @240fps</td>
+                    <td>4K @30fps, 1080p @120fps, 720p @240fps</td>
+                </tr>
+                <tr>
+                    <td>Battery</td>
+                    <td>2700 mAh<br>Non-removable</td>
+                    <td>3520 mAh<br>Non-removable</td>
+                </tr>
+                <tr>
+                    <td>Charging</td>
+                    <td>USB-PD, 18W rapid Charging</td>
+                    <td>USB-PD, 18W rapid Charging</td>
+                </tr>
+                <tr>
+                    <td>Connectivity</td>
+                    <td>USB Type-C, Bluetooth 5.0</td>
+                    <td>USB Type-C, Bluetooth 5.0</td>
+                </tr>
+                <tr>
+                    <td>Fingerprint sensor</td>
+                    <td>Yes, on rear</td>
+                    <td>Yes, on rear</td>
+                </tr>
+                <tr>
+                    <td>Additional features</td>
+                    <td>Active Edge sides, eSIM</td>
+                    <td>Active Edge sides, eSIM</td>
+                </tr>
+                <tr>
+                    <td>Storage</td>
+                    <td>64 / 128GB</td>
+                    <td>64 / 128GB</td>
+                </tr>
+                <tr>
+                    <td>Water resistance</td>
+                    <td>Yes, IP67</td>
+                    <td>Yes, IP67</td>
+                </tr>
+                <tr>
+                    <td>Colors</td>
+                    <td>Kinda Blue, Just Black, Clearly White</td>
+                    <td>Black &amp; White, Just Black</td>
+                </tr>
+                <tr>
+                    <td>Security updates</td>
+                    <td>3 years</td>
+                    <td>3 years</td>
+                </tr>
+                <tr>
+                    <td>Platform updates</td>
+                    <td>3 years</td>
+                    <td>3 years</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>145.7 x 69.7 x 7.8 mm</td>
+                    <td>157.9 x 76.7 x 7.9 mm</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>143 g</td>
+                    <td>175 g</td>
+                </tr>
+            </tbody>
 
-    </table>
+        </table>
 
-    <div>
-        <p>
-            Thank you for viewing if you would like to purchase the <a class="link" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiG69r9gJvfAhUa53cKHZrxBzIYABAAGgJlZg&ohost=www.google.co.uk&cid=CAESEOD2dN25k_P9HovU302losU&sig=AOD64_3nFC-REDf75Ng29THAQKuj2mp8Gw&q=&ved=2ahUKEwjyptP9gJvfAhUQK1AKHbMFCGYQ0Qx6BAgDEAE&adurl=" target="_blanks">Google Pixel 2</a>
-            <br>Or if you would like to purchase its sucessor the <a class="link" href="https://store.google.com/gb/product/pixel_3?gclid=Cj0KCQiAgMPgBRDDARIsAOh3uyLn_5JJm93mYTe3XS1aM3cY9okpBhYKOQqUNV1UsNqC2tTpUcZlHOIaAvuYEALw_wcB&gclsrc=aw.ds" target="_blank">Google Pixel 3</a>, click on their names and you will be redirected to the store. 
-        </p>
-    </div>
+        <div>
+            <p>
+                Thank you for viewing if you would like to purchase the <a class="link" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiG69r9gJvfAhUa53cKHZrxBzIYABAAGgJlZg&ohost=www.google.co.uk&cid=CAESEOD2dN25k_P9HovU302losU&sig=AOD64_3nFC-REDf75Ng29THAQKuj2mp8Gw&q=&ved=2ahUKEwjyptP9gJvfAhUQK1AKHbMFCGYQ0Qx6BAgDEAE&adurl=" target="_blanks">Google Pixel 2</a>
+                <br>Or if you would like to purchase its sucessor the <a class="link" href="https://store.google.com/gb/product/pixel_3?gclid=Cj0KCQiAgMPgBRDDARIsAOh3uyLn_5JJm93mYTe3XS1aM3cY9okpBhYKOQqUNV1UsNqC2tTpUcZlHOIaAvuYEALw_wcB&gclsrc=aw.ds" target="_blank">Google Pixel 3</a>, click on their names and you will be redirected to the store. 
+            </p>
+        </div>
 
-    <footer>
-        &copy;Breadboykid 2018
-    </footer>
+        <footer>
+            &copy;Breadboykid 2018
+        </footer>
 
-    
-</body>
+        
+    </body>
 
 </html>
